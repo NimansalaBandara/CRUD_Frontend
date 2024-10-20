@@ -1,0 +1,43 @@
+/* General styling for the navigation bar */
+.home-ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Dark background for the navbar */
+    display: flex; /* Align the items horizontally */
+    justify-content: space-around; /* Space between list items */
+    align-items: center; /* Align items vertically */
+    
+  }
+  
+  /* Style for each list item in the navigation bar */
+  .home-ll {
+    padding: 14px 20px; /* Spacing inside the list items */
+    cursor: pointer;
+    
+  }
+  
+  /* Styling for the headings inside the navigation */
+  .home-ll h1 {
+    margin: 0;
+    color: white; /* Text color */
+    font-size: 20px;
+    text-decoration: none; /* Remove the underline */
+  }
+  .home-a {
+    text-decoration: none; /* Remove the underline */
+    color: inherit; /* Inherit color from the parent element */
+  }
+  
+  /* Hover effect for the list items */
+  .home-ll:hover {
+    background-color: #575757; /* Change background on hover */
+  }
+  
+  /* Optional: Media query for responsive design */
+  @media (max-width: 600px) {
+    .home-ul {
+      flex-direction: column; /* Stack the items vertically on small screens */
+    }
+  }
+  
